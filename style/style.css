@@ -172,15 +172,10 @@ nav a{
     line-height: 1.6;
 }
 
-/* FINE SECONDA SECTION */
+/**** FINE SECONDA ****/
 
 
-.second-grey-section{
-    display: flex;
-    background-color: rgb(211,211,211);
-    padding: 50px;
-}
-
+/**** QUARTA SECTION ****/
 .green-container{
     width: 80%;
     margin: auto;
@@ -241,25 +236,56 @@ footer{
 
 .footer-container{
     width: 80%;
-    height: 70%;
+    
     display: flex;
     padding-bottom: 1.5rem;
 }
 
 .footer-box1{
     width: 30%;
-    background-color: rgb(240,128,128);
+    color: rgb(114,137,218);
+
+}
+.footer-box1 h2{
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+
+.footer-box1 img{
+    height: 1rem;
+}
+
+.italiano{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.icons{
+    margin-top: 1rem;
+}
+.footer-box1 i{
+    display: inline-block;
+    margin: 0 0.5rem;
 }
 
 .footer-box2{
     width: calc(70% / 4);
-    background-color: rgb(35,178,170);
-    border: 2px dotted white;
+    color: white;
+}
+.first-box-contacts{
+    margin-top: 5rem;
+}
+.violet{
+    color: rgb(114,137,218);
+}
+.first-box-contacts p{
+    margin: 1rem auto;
 }
 
+/**** LOWER FOOTER ****/
+
 .lower-footer{
-    height: 20%;
-    border: 2px solid white;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -267,20 +293,25 @@ footer{
 }
 
 .lower-container{
-    background-color: rgb(127,255,212);
     width: 80%;
-    height: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 1px solid rgb(114,137,218) ;
 }
 
 .logo-footer{
-    background-color: pink ;
     padding: 1rem;   
 }
 
 .button-footer{
-    background-color: pink ;
     padding: 1rem;
+}
+
+.button-footer a{
+    text-decoration: none;
+    border: 1px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(114,137,218);
 }
