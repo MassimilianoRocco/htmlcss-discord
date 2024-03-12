@@ -1,0 +1,211 @@
+/*** GENERICS ***/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.black-border{
+    border: 2px dotted black;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+/***** HEADER *****/
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+nav{
+    width: 80%;
+    min-height: 10%;
+    margin: 1rem auto;
+    display: flex;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.logo-container{
+    width: 20%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.link-container{
+    width: 60%;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.login-container{
+    width: 20%;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.accedi{
+    color: black;
+    border: 1px  solid white;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.header-section{
+    
+    margin-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-box{
+    width: 50%;
+    text-align: center;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.pink-box>h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pink-box>p{
+    font-size: 14px ;
+    margin-bottom: 20px;
+}
+
+.pink-box>a{
+    text-decoration: none;
+    border: 1px;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.white{
+    color: white;
+    background-color: black;
+}
+.black{
+    color: black;
+    background-color: white;
+}
+.arrow{
+    font-size: 20px;
+}
+
+/***** MAIN *****/
+.white-section{
+    height: 35rem;
+    display: flex;
+}
+
+.section-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto;
+}
+
+.grey-section{
+        height: 35rem;
+        display: flex;
+        background-color: rgb(211,211,211);
+}
+
+.blue1{
+    background-color: dodgerblue;
+    width: 60%;
+}
+
+.pink2{
+    background-color: pink;
+    width: 40%;
+}
+
+.second-grey-section{
+    height: 60rem;
+    display: flex;
+    background-color: rgb(211,211,211);
+}
+
+.green-container{
+    background-color: rgb(34,139,34);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+/**** FOOTER ****/
+footer{
+    height: 50rem;
+    display: flex;
+    background-color: rgb(35,39,42);
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+
+.footer-container{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    padding-bottom: 1.5rem;
+}
+
+.footer-box1{
+    width: 30%;
+    background-color: rgb(240,128,128);
+}
+
+.footer-box2{
+    width: calc(70% / 4);
+    background-color: rgb(35,178,170);
+    border: 2px dotted white;
+}
+
+.lower-footer{
+    height: 20%;
+    border: 2px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.lower-container{
+    background-color: rgb(127,255,212);
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer{
+    background-color: pink ;
+    padding: 1rem;   
+}
+
+.button-footer{
+    background-color: pink ;
+    padding: 1rem;
+}
