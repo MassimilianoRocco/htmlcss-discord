@@ -28,7 +28,6 @@ header{
 
 nav{
     width: 80%;
-    min-height: 10%;
     margin: 1rem auto;
     display: flex;
 }
@@ -72,6 +71,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px;
 }
 
 .pink-box{
@@ -113,44 +113,119 @@ nav a{
 
 /***** MAIN *****/
 .white-section{
-    height: 35rem;
     display: flex;
+    padding: 50px;
 }
 
 .section-container{
     width: 80%;
-    height: 80%;
     display: flex;
     margin: auto;
-}
-
-.grey-section{
-        height: 35rem;
-        display: flex;
-        background-color: rgb(211,211,211);
 }
 
 .blue1{
-    background-color: dodgerblue;
-    width: 60%;
+    width: 60%;  
 }
 
 .pink2{
-    background-color: pink;
+    color: black;
+    text-align: left;
     width: 40%;
 }
+.pink2>h1{
+    font-size: 40px;
+    margin: 50px auto 20px;
+    width: 60%;
+}
+.pink2>p{
+    margin: 0 auto 50px;
+    width: 60%;
+    line-height: 1.6;
+}
 
-.second-grey-section{
-    height: 60rem;
+/* FINE PRIMA SECTION */
+
+.grey-section{
     display: flex;
     background-color: rgb(211,211,211);
+    padding: 50px;
+}
+
+.blue11{
+    width: 60%;
+}
+
+
+.pink22{
+    color: black;
+    text-align: left;
+    width: 40%;
+}
+.pink22>h1{
+    font-size: 40px;
+    margin: 50px auto 20px;
+    width: 60%;
+}
+.pink22>p{
+    margin: 0 auto 50px;
+    width: 60%;
+    line-height: 1.6;
+}
+
+/* FINE SECONDA SECTION */
+
+
+.second-grey-section{
+    display: flex;
+    background-color: rgb(211,211,211);
+    padding: 50px;
 }
 
 .green-container{
-    background-color: rgb(34,139,34);
     width: 80%;
-    height: 80%;
     margin: auto;
+    padding: 50px;
+}
+
+.green-container>h1{
+    font-size: 40px;
+    margin: 50px auto 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.green-container>p{
+    width: 60%;
+    margin: 0 auto 50px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.container-item4{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.testo{
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.button-container{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.button-container>a{
+    text-decoration: none;
+    border: 1px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px auto;
+    background-color: rgb(114,137,218);
+
 }
 
 /**** FOOTER ****/
