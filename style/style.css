@@ -71,7 +71,7 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 6rem;
 }
 
 .pink-box{
@@ -123,8 +123,12 @@ nav a{
     margin: auto;
 }
 
-.blue1{
+.blue{
     width: 60%;  
+}
+
+.img1{
+    width: 100%;
 }
 
 .pink2{
@@ -143,6 +147,14 @@ nav a{
     line-height: 1.6;
 }
 
+.waves{
+    background-image: url(../img/wave.svg) ;
+    filter: opacity(0.18);
+    height: 50px;
+}
+.inverted{
+   transform: rotate(180deg);
+}
 /* FINE PRIMA SECTION */
 
 .grey-section{
@@ -150,11 +162,6 @@ nav a{
     background-color: rgb(211,211,211);
     padding: 50px;
 }
-
-.blue11{
-    width: 60%;
-}
-
 
 .pink22{
     color: black;
@@ -209,7 +216,7 @@ nav a{
 }
 
 .button-container{
-    width: 20%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
